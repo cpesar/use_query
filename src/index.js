@@ -1,8 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
 import App from "./App";
-import reportWebVitals from "./reportWebVitals";
 
 import { QueryClient, QueryClientProvider } from "react-query";
 
@@ -13,5 +11,3 @@ root.render(
     <App />
   </QueryClientProvider>
 );
-
-reportWebVitals();
